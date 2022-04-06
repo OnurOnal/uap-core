@@ -1547,6 +1547,9 @@ os_parsers:
   - regex: 'CFNetwork/.{0,100} Darwin/(20)\.\d+'
     os_replacement: 'iOS'
     os_v1_replacement: '14'
+  - regex: 'CFNetwork/.{0,100} Darwin/(21)\.\d+'
+    os_replacement: 'iOS'
+    os_v1_replacement: '15'
   - regex: 'CFNetwork/.{0,100} Darwin/'
     os_replacement: 'iOS'
 
